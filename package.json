@@ -1,0 +1,22 @@
+{
+  "name": "dti-site-temporario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-series": "^1.0.2",
+    "gulp-size": "^2.1.0",
+    "merge-stream": "^1.0.1",
+    "run-sequence": "^1.2.2"
+  }
+}

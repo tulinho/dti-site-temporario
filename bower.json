@@ -1,0 +1,21 @@
+{
+  "name": "dtiSiteTemporario",
+  "description": "Site temporário dti digital",
+  "main": "index.html",
+  "moduleType": [],
+  "authors": [
+    "Marco Tulio"
+  ],
+  "license": "MIT",
+  "homepage": "www.dtidigital.com.br",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.98.2"
+  }
+}
