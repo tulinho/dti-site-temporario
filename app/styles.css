@@ -1,12 +1,10 @@
 
 body {
   background: url(img/background.png) #45408d;  
-  background-position-y: -65px;
-  background-size: 205% 170%;
+  background-size: cover;
   height: 100%;
   font-family: 'Poppins', sans-serif;
   margin: 0px;
-  overflow: hidden;
   padding: 0px;
   width: 100%;
 }
@@ -26,12 +24,12 @@ body {
 }
 
 h1 {  
-  font-size: 92px;
+  font-size: 82pt;
   font-weight: 700; 
   line-height: 100px;
 }
 h4{
-    font-size: 24px;
+    font-size: 24pt;
     font-weight: 500;  
 }
 
@@ -48,7 +46,7 @@ h4{
   color: #91c1f6;
 }
 .input-field input[type=email]:focus{
-  border-bottom: 1px solid #91c1f6;
+  border-bottom: 2px solid #91c1f6;
   box-shadow: 0 1px 0 0 #91c1f6;
   color: #b2b4ce;
 }
@@ -62,7 +60,7 @@ h4{
   color: #fa8f8f;
 }
 .input-field input[type=email].invalid{
-  border-bottom: 1px solid #F44336;
+  border-bottom: 2px solid #F44336;
   box-shadow: 0 1px 0 0 #fa8f8f;
   color: #fa8f8f;
 }
@@ -139,7 +137,7 @@ span i.material-icons{
   left: 0px;
   height: 200px;
   text-align: center;
-  top: calc(100vh - 200px);
+  top: 530px; 
   width: 100%;
 }
 .footer img{
@@ -205,8 +203,8 @@ span i.material-icons{
 @media(max-width: 920px){
   
   body{
-    background-size: 800% 200%;
-    background-position: -1000px -200px;
+    background: url(img/background-mobile.png) #45408d; 
+    background-size: cover;
   }
 
   .title {
@@ -218,11 +216,11 @@ span i.material-icons{
   }
 
   h1 {  
-    font-size: 36px; 
+    font-size: 36pt; 
     line-height: 60px;  
   }
   h4{
-    font-size: 14px;
+    font-size: 14pt;
   }
   
   .container{
@@ -241,7 +239,7 @@ span i.material-icons{
   
   .footer{
     height: 120px;
-    top: calc(100vh - 120px);
+    top: 450px; 
     width: 100%;
   }
   .footer img{
