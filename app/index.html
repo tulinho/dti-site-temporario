@@ -30,7 +30,8 @@
   
   <!--Import Google Fonts-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     
   <link href="../bower_components/materialize/dist/css/materialize.min.css" rel="stylesheet"/>
   <link href="styles.css" rel="stylesheet"/>
@@ -42,13 +43,13 @@
     <h1>innovate.</h1>
     <h4>novo site. nova sede. soon.</h4>
   </div>
-  <div class="container">
+  <div class="content-container">
     <div class="row">
-      <div class="col s12" style="position: relative;">
-        <div class="notification-button-container">
-          <button id="notification-button" class="dti-button waves-effect waves-light">QUERO SER NOTIFICADO</button>
-        </div>
-        <div class="email-container hide">
+      <div class="col s12" style="position: relative;">        
+        <div class="email-container">
+         <div class="sub-title">
+           <h5>QUERO SER NOTIFICADO</h5>
+         </div>
           <div class="input-container email-input">
             <div class="input-field">
               <input id="email" type="email" class="validate">
@@ -77,13 +78,7 @@
   <script type="text/javascript" src="../bower_components/materialize/dist/js/materialize.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
-      
-      $('#notification-button').click(function(){
-        $('#notification-button').addClass('hide-button');
-        $('#send-button').addClass('show-button');
-        $('.email-container').removeClass('hide');
-      });
-      
+            
       $('#send-button').click(function(){
         if(!$('#email').hasClass('invalid') && $('#email').val()){
                     

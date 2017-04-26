@@ -24,13 +24,24 @@ body {
 }
 
 h1 {  
-  font-size: 82pt;
+  font-size: 65pt;
   font-weight: 700; 
   line-height: 100px;
 }
 h4{
-    font-size: 24pt;
+    font-size: 18pt;
     font-weight: 500;  
+}
+h5{
+    font-size: 12pt;
+    font-weight: 300;  
+}
+.sub-title{
+  color: #91c1f6;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px auto;
+  text-align: left;
+  width: 440px;
 }
 
 .input-field label {
@@ -79,7 +90,7 @@ h4{
   color: #3f3a82;
 }
 
-.container {
+.content-container {
   margin-top: 30px;
 }
 
@@ -137,7 +148,7 @@ span i.material-icons{
   left: 0px;
   height: 200px;
   text-align: center;
-  top: 530px; 
+  top: 560px; 
   width: 100%;
 }
 .footer img{
@@ -208,11 +219,12 @@ span i.material-icons{
   }
 
   .title {
-    margin: 47px 16px 10px;
+    margin: 47px 20px 10px;
     text-align: left;
+    width: calc(100% - 40px);
   }
   .title h1{  
-    display: block;
+    display: block;    
   }
 
   h1 {  
@@ -223,12 +235,15 @@ span i.material-icons{
     font-size: 14pt;
   }
   
-  .container{
-    margin-top: 0px;
+  .content-container{
+    margin: 0px 10px;
   }
   
+  .sub-title{
+    width: auto;
+  }
   .email-container, .notification-button-container {
-    width: calc(100% - 20px);
+    width: calc(100% - 40px);
   }
   
   .email-input {
@@ -237,10 +252,14 @@ span i.material-icons{
     width: 100%;
   }
   
+  .send-button-container{
+    margin-top: 5px;
+  }
+  
   .footer{
     height: 120px;
     top: 450px; 
-    width: 100%;
+    width: 100% ;
   }
   .footer img{
     height: 65px;
