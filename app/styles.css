@@ -154,6 +154,13 @@ span i.material-icons{
 .footer img{
   height: 89px;
 }
+.address{
+  color: #FFF;
+  margin-top: 30px;
+}
+.address a{
+  color: #FFF;
+}
 
 .hide-button{
   animation: hide-button 0.75s forwards
@@ -263,6 +270,9 @@ span i.material-icons{
   }
   .footer img{
     height: 65px;
+  }
+  .address{
+    margin: 30px 10px 0px;
   }
   
   @keyframes hide-button {
